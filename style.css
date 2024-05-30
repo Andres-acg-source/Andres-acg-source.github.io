@@ -1,0 +1,548 @@
+h1 {
+    color: #004d8e;
+}
+
+h2 {
+    color: #004d8e;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 12px;
+    padding: 12px 20px;
+    background: linear-gradient(to right, #004d8e, #007bff); /* Gradient background using blue hues */
+    color: #fff; /* White text color */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+  }
+  
+  li:hover {
+    transform: translateY(-2px); /* Add a slight lift effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Increase shadow on hover */
+  }
+  
+  li:last-child {
+    margin-bottom: 0; /* Remove bottom margin from the last item */
+  }
+  
+  .photography-section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #004d8e; /* Matched with the blue hue */
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333; /* Adjusted to a darker tone */
+    margin-bottom: 20px;
+}
+
+.photo-container {
+    max-width: 600px; /* Limit the width of the photo container */
+    margin: 0 auto; /* Center the container */
+    overflow: hidden; /* Ensure the photo stays within its container */
+    border-radius: 10px; /* Add some rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.photo {
+    width: 100%; /* Make the photo responsive */
+    display: block;
+    border-radius: 10px; /* Add rounded corners to the photo */
+    transition: transform 0.3s ease; /* Add a smooth transition on hover */
+}
+
+.photo:hover {
+    transform: scale(1.05); /* Scale the photo up slightly on hover */
+}
+
+.travel-title {
+    font-size: 36px;
+    color: #004d8e; /* Blue hue */
+    margin-bottom: 20px;
+}
+
+.travel-description {
+    font-size: 18px;
+    color: #333; /* Darker text color */
+    line-height: 1.6;
+}
+
+.travel-image {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.travel-image:hover {
+    transform: scale(1.05);
+}
+
+
+/* About Me Section */
+.about-me {
+    background-color: #f8f9fa; /* Light background color */
+    color: #343a40; /* Dark text color */
+    padding: 60px 20px; /* Spacing around the section */
+    text-align: center;
+    margin-bottom: 40px; /* Space below the section */
+}
+
+.about-me-title {
+    font-size: 2.5rem; /* Larger font size for the title */
+    color: #004d8e; /* Blue hue */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.about-me-description {
+    font-size: 1.125rem; /* Font size for the description */
+    line-height: 1.6; /* Line height for better readability */
+    max-width: 800px; /* Maximum width for the text */
+    margin: 0 auto; /* Center align the text */
+}
+
+
+
+
+.subscribe {
+    position: relative;
+    height: 140px;
+    width: 240px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #004d8e; /* Changed to a blue hue */
+    box-shadow: 0px 0px 60px 5px rgba(0, 0, 100, 0.4); /* Changed the shadow to a blue hue */
+}
+
+.subscribe:after {
+    position: absolute;
+    content: "";
+    right: -10px;
+    bottom: 18px;
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #004d8e; /* Changed to a blue hue */
+}
+
+.subscribe p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    line-height: 28px;
+    color: #004d8e; /* Changed to a blue hue */
+}
+
+.subscribe input {
+    position: absolute;
+    bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #004d8e; /* Changed to a blue hue */
+    padding: 10px;
+    width: 82%;
+    background: transparent;
+    transition: all .25s ease;
+    color: #004d8e; /* Changed to a blue hue */
+}
+
+.subscribe input:focus {
+    outline: none;
+    border-bottom: 1px solid #004d8e; /* Changed to a blue hue */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif';
+    color: #004d8e; /* Changed to a blue hue */
+}
+
+.subscribe .submit-btn {
+    position: absolute;
+    border-radius: 30px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #004d8e; /* Changed to a blue hue */
+    color: #fff;
+    padding: 12px 25px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    right: -10px;
+    bottom: -20px;
+    cursor: pointer;
+    transition: all .25s ease;
+    box-shadow: -5px 6px 20px 0px rgba(0, 0, 100, 0.4); /* Changed the shadow to a blue hue */
+}
+
+.subscribe .submit-btn:hover {
+    background-color: #00406d; /* Darker shade of blue */
+    box-shadow: -5px 6px 20px 0px rgba(0, 0, 100, 0.569); /* Changed the shadow to a blue hue */
+}
+
+.parent {
+    width: 290px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.card1 {
+    height: 100%;
+    border-radius: 50px;
+    background: linear-gradient(135deg, rgb(0, 214, 255) 0%, rgb(8, 96, 226) 100%);
+    transition: all 0.5s ease-in-out;
+    transform-style: preserve-3d;
+    box-shadow: rgba(5, 17, 71, 0) 40px 50px 25px -40px, rgba(5, 17, 71, 0.2) 0px 25px 25px -5px;
+}
+
+.glass {
+    transform-style: preserve-3d;
+    position: absolute;
+    inset: 8px;
+    border-radius: 55px;
+    border-top-right-radius: 100%;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.349) 0%, rgba(255, 255, 255, 0.815) 100%);
+    transform: translate3d(0px, 0px, 25px);
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    transition: all 0.5s ease-in-out;
+}
+
+.content {
+    padding: 100px 60px 0px 30px;
+    transform: translate3d(0, 0, 26px);
+}
+
+.content .title {
+    display: block;
+    color: #004d8e;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.content .text {
+    display: block;
+    color: rgba(0, 78, 137, 0.7647058824);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.bottom {
+    padding: 10px 12px;
+    transform-style: preserve-3d;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: translate3d(0, 0, 26px);
+}
+
+.bottom .view-more {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: flex-end;
+    transition: all 0.2s ease-in-out;
+}
+
+.bottom .view-more:hover {
+    transform: translate3d(0, 0, 10px);
+}
+
+.bottom .view-more .view-more-button {
+    background: none;
+    border: none;
+    color: #00a3ff;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.bottom .view-more .svg {
+    fill: none;
+    stroke: #00a3ff;
+    stroke-width: 3px;
+    max-height: 15px;
+}
+
+.bottom .social-buttons-container {
+    display: flex;
+    gap: 10px;
+    transform-style: preserve-3d;
+}
+
+.bottom .social-buttons-container .social-button {
+    width: 30px;
+    aspect-ratio: 1;
+    padding: 5px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: none;
+    display: grid;
+    place-content: center;
+    box-shadow: rgba(5, 17, 71, 0.5) 0px 7px 5px -5px;
+}
+
+.bottom .social-buttons-container .social-button:first-child {
+    transition: transform 0.2s ease-in-out 0.4s, box-shadow 0.2s ease-in-out 0.4s;
+}
+
+.bottom .social-buttons-container .social-button:nth-child(2) {
+    transition: transform 0.2s ease-in-out 0.6s, box-shadow 0.2s ease-in-out 0.6s;
+}
+
+.bottom .social-buttons-container .social-button:nth-child(3) {
+    transition: transform 0.2s ease-in-out 0.8s, box-shadow 0.2s ease-in-out 0.8s;
+}
+
+.bottom .social-buttons-container .social-button .svg {
+    width: 15px;
+    fill: #004d8e;
+}
+
+.bottom .social-buttons-container .social-button:hover {
+    background: black;
+}
+
+.bottom .social-buttons-container .social-button:hover .svg {
+    fill: white;
+}
+
+.bottom .social-buttons-container .social-button:active {
+    background: rgb(0, 78, 137); /* Changed from yellow to a blue hue */
+}
+
+.bottom .social-buttons-container .social-button:active .svg {
+    fill: black;
+}
+
+.logo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform-style: preserve-3d;
+}
+
+.logo .circle {
+    display: block;
+    position: absolute;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) -10px 10px 20px 0px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background: rgba(0, 203, 249, 0.2);
+    transition: all 0.5s ease-in-out;
+}
+
+.logo .circle1 {
+    width: 170px;
+    transform: translate3d(0, 0, 20px);
+    top: 8px;
+    right: 8px;
+}
+
+.logo .circle2 {
+    width: 140px;
+    transform: translate3d(0, 0, 40px);
+    top: 10px;
+    right: 10px;
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    transition-delay: 0.4s;
+}
+
+.logo .circle3 {
+    width: 110px;
+    transform: translate3d(0, 0, 60px);
+    top: 17px;
+    right: 17px;
+    transition-delay: 0.8s;
+}
+
+.logo .circle4 {
+    width: 80px;
+    transform: translate3d(0, 0, 80px);
+    top: 23px;
+    right: 23px;
+    transition-delay: 1.2s;
+}
+
+.logo .circle5 {
+    width: 50px;
+    transform: translate3d(0, 0, 100px);
+    top: 30px;
+    right: 30px;
+    display: grid;
+    place-content: center;
+    transition-delay: 1.6s;
+}
+
+.logo .circle5 .svg {
+    width: 20px;
+    fill: white;
+}
+
+.parent:hover .card1 {
+    transform: rotate3d(1, 1, 0, 30deg);
+    box-shadow: rgba(5, 17, 71, 0.3) 30px 50px 25px -40px, rgba(5, 17, 71, 0.1) 0px 25px 30px 0px;
+}
+
+.parent:hover .card1 .bottom .social-buttons-container .a .social-button {
+    transform: translate3d(0, 0, 50px);
+    box-shadow: rgba(5, 17, 71, 0.2) -5px 20px 10px 0px;
+}
+
+.parent:hover .card1 .logo .circle2 {
+    transform: translate3d(0, 0, 60px);
+}
+
+.parent:hover .card1 .logo .circle3 {
+    transform: translate3d(0, 0, 80px);
+}
+
+.parent:hover .card1 .logo .circle4 {
+    transform: translate3d(0, 0, 100px);
+}
+
+.parent:hover .card1 .logo .circle5 {
+    transform: translate3d(0, 0, 120px);
+}
+
+.card {
+    position: relative;
+    width: 350px; /* Increased width */
+    height: 429px; /* Increased height */
+    background: linear-gradient(-45deg, #004d8e, #0a5fa8); /* Changed to a blue gradient */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card svg {
+    width: 48px;
+    fill: #004d8e; /* Changed to a blue hue */
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card:hover {
+    transform: rotate(-5deg) scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+}
+
+.card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #004d8e; /* Changed to a blue hue */
+    font-weight: 700;
+}
+
+.card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+}
+
+.card:hover svg {
+    scale: 0;
+    transform: rotate(-45deg);
+}
+  
+
+.btn.btn-primary {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid rgb(61, 106, 255);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: rgb(61, 106, 255); /* Background color added */
+    color: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    transition: all 0.2s ease-in;
+  }
+  
+  .btn.btn-primary:hover {
+    background: rgba(61, 106, 255, 0.8); /* Adjusted background color on hover */
+    box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+  }
+  
+  .btn.btn-primary:hover::before {
+    animation: sh02 0.5s 0s linear;
+  }
+  
+  .btn.btn-primary::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: #fff;
+    box-shadow: 0 0 50px 30px #fff;
+    transform: skewX(-20deg);
+  }
+  
+  @keyframes sh02 {
+    from {
+      opacity: 0;
+      left: 0%;
+    }
+  
+    50% {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+      left: 100%;
+    }
+  }
+  
+  .btn.btn-primary:active {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  
