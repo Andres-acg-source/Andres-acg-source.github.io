@@ -93,7 +93,6 @@ ul {
 
 /* About Me Section */
 .about-me {
-    background-color: #f8f9fa; /* Light background color */
     color: #343a40; /* Dark text color */
     padding: 60px 20px; /* Spacing around the section */
     text-align: center;
@@ -115,6 +114,25 @@ ul {
 
 
 
+/* Estilos para el carrusel horizontal */
+.adventures-container {
+    overflow-x: hidden; /* Oculta el desbordamiento horizontal */
+    white-space: nowrap; /* Evita que los elementos se envuelvan */
+    max-width: 100%; /* Limita el tamaño del contenedor */
+}
+
+.adventure-list {
+    display: inline-block; /* Permite que la lista se muestre en línea */
+    transition: transform 0.3s ease; /* Añade transición suave */
+}
+
+.adventure-item {
+    display: inline-block; /* Permite que los elementos se muestren en línea */
+    margin-right: 10px; /* Espacio entre los elementos */
+}
+
+
+  
 
 .subscribe {
     position: relative;
